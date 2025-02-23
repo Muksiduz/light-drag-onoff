@@ -75,8 +75,8 @@ function turnOnBulb() {
   onbulb.classList.remove("display-hidden");
   offbulb.classList.add("display-hidden");
 
-  bulb.style.backgroundColor = "yellow";
   onbulb.classList.add("glow-effect");
+  bulb.style.backgroundColor = "yellow";
   path.style.stroke = "black";
   document.body.style.backgroundColor = "white";
 }
