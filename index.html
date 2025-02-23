@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muksid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div>
+        <div id="offDiv" class="off-container">
+          <h1>Work Your Brain.exe to Turn the Lights On</h1>
+          <h2 class="off-heading">Read the text below</h2>
+          <p>
+            "Hey there! I'm Muksid, a programmer who enjoys creating and
+            breaking things with code. Still learning every day — open to
+            advice, feedback, and coding tips. Let’s build something cool!"
+          </p>
+          <h4>Feel free to contact me at Muksiduzzaman124@gmail.com</h4>
+        </div>
+        <div id="onDiv" class="on-container display-hidden">
+          <h1>Congrats!!! Your Brain.exe is working perfectly fine</h1>
+          <p>
+            "Hey there! I'm Muksid, a programmer who enjoys creating and
+            breaking things with code. Still learning every day — open to
+            advice, feedback, and coding tips. Let’s build something cool!" feel
+            free to contact me at Muksiduzzaman124@gmail.com
+          </p>
+          <h4>Feel free to contact me at Muksiduzzaman124@gmail.com</h4>
+        </div>
+      </div>
+      <div>
+        <div id="bulb" class="circle">
+          <img
+            id="onbulb"
+            class="image display-hidden"
+            src="onbulb.png"
+            alt=""
+          />
+          <img id="offbulb" class="image" src="offbulb.png" alt="" />
+
+          <svg viewBox="0 0 500 500">
+            <path id="path" d="M250,0 Q250,250 250,200" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bubblegum Sans", serif;
+}
+body {
+  background: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+svg {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+path {
+  stroke: white;
+  fill: transparent;
+  z-index: -1;
+  stroke-width: 10px;
+  cursor: pointer;
+}
+.display-hidden {
+  display: none;
+}
+.circle {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  user-select: none;
+}
+.glow-effect {
+  box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow, 0 0 80px yellow,
+    0 0 160px yellow, 0 0 240px yellow, 0 0 320px yellow, 0 0 400px yellow;
+}
+.main-container {
+  margin: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.on-container {
+  width: 80%;
+}
+.on-container h1 {
+  font: bolder;
+  color: rgb(0, 0, 0);
+  font-size: 85px;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.off-container {
+  width: 80%;
+}
+
+.off-container h1 {
+  font: bolder;
+  color: rgb(255, 255, 255);
+  font-size: 85px;
+  letter-spacing: 1px;
+  user-select: none;
+}
+.off-heading {
+  margin-top: 20px;
+  color: gray;
+  font-size: 24px;
+  user-select: none;
+}
+p {
+  margin-top: 50px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.555);
+  user-select: none;
+  user-select: none;
+}
+h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(37, 36, 36);
+}
